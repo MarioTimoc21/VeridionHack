@@ -1,1 +1,1 @@
-print("milmoi")
+print("milmoi mario")
