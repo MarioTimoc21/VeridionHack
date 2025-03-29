@@ -391,7 +391,7 @@ def determine_outcome(opponent_word, player_word, word_data):
 
 if __name__ == "__main__":
     HOST = "http://172.18.4.158:8000"  # Your server address
-    PLAYER_ID = "your_player_id"  # Your player ID
+    PLAYER_ID = "FNVflGil2a"  # Your player ID
     
     try:
         play_game(PLAYER_ID, HOST)
