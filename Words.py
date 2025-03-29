@@ -244,6 +244,6 @@ def determine_outcome(opponent_word, player_word, word_data):
 # Example usage
 if __name__ == "__main__":
     HOST = "http://172.18.4.158:8000"  # Replace with actual API endpoint
-    PLAYER_ID = "your_player_id"     # Replace with your player ID
+    PLAYER_ID = "FNCflGil2a"     # Replace with your player ID
     
     play_game(PLAYER_ID, HOST)
