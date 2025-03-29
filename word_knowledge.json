@@ -1,0 +1,22 @@
+{
+  "observed_beats": {
+    "apocalyptic meteor": [
+      "58"
+    ],
+    "feather": [
+      "7"
+    ],
+    "nuclear bomb": [
+      "7"
+    ]
+  },
+  "observed_failures": {
+    "shield": [
+      "36"
+    ],
+    "echo": [
+      "59"
+    ]
+  },
+  "last_updated": "2025-03-29T16:34:23.883322"
+}

@@ -1,0 +1,245 @@
+{
+    "feather": {
+        "beats": ["pebble", "leaf", "twig"],
+        "beaten_by": ["rock", "flame", "water", "wind", "storm"]
+    },
+    "coal": {
+        "beats": ["feather", "paper", "leaf", "twig"],
+        "beaten_by": ["water", "rock", "flame"]
+    },
+    "pebble": {
+        "beats": ["feather", "twig"],
+        "beaten_by": ["rock", "water", "earthquake"]
+    },
+    "leaf": {
+        "beats": ["pebble", "feather"],
+        "beaten_by": ["flame", "wind", "storm", "sandstorm"]
+    },
+    "paper": {
+        "beats": ["rock", "stone", "logic"],
+        "beaten_by": ["flame", "water", "wind", "scissors"]
+    },
+    "rock": {
+        "beats": ["feather", "pebble", "scissors"],
+        "beaten_by": ["paper", "earthquake", "explosion", "water", "tectonic shift"]
+    },
+    "water": {
+        "beats": ["flame", "fire", "coal", "magma", "volcano", "explosion", "nuclear bomb"],
+        "beaten_by": ["ice", "gravity", "earth", "tectonic shift", "sandstorm"]
+    },
+    "twig": {
+        "beats": ["feather", "leaf"],
+        "beaten_by": ["flame", "rock", "water", "wind"]
+    },
+
+    "sword": {
+        "beats": ["rope", "feather", "leaf", "twig"],
+        "beaten_by": ["shield", "gun", "explosion", "laser"]
+    },
+    "shield": {
+        "beats": ["sword", "rock", "pebble", "feather"],
+        "beaten_by": ["gun", "laser", "explosion", "nuclear bomb"]
+    },
+    "gun": {
+        "beats": ["shield", "sword", "feather", "leaf"],
+        "beaten_by": ["water", "explosion", "peace", "nuclear bomb"]
+    },
+    "flame": {
+        "beats": ["feather", "leaf", "paper", "twig", "rope"],
+        "beaten_by": ["water", "sand", "rock", "explosion", "ice"]
+    },
+    "rope": {
+        "beats": ["feather", "leaf", "twig", "pebble"],
+        "beaten_by": ["sword", "flame", "laser"]
+    },
+    "disease": {
+        "beats": ["feather", "leaf", "human spirit"],
+        "beaten_by": ["cure", "vaccine", "enlightenment"]
+    },
+    "cure": {
+        "beats": ["disease", "bacteria", "virus", "plague"],
+        "beaten_by": ["time", "fate", "entropy"]
+    },
+    "bacteria": {
+        "beats": ["rope", "leaf", "paper"],
+        "beaten_by": ["cure", "vaccine", "flame"]
+    },
+    "shadow": {
+        "beats": ["light", "feather", "twig", "leaf"],
+        "beaten_by": ["light", "sun", "star", "flame"]
+    },
+    "light": {
+        "beats": ["shadow", "darkness", "bacteria", "virus"],
+        "beaten_by": ["black hole", "shadow", "supermassive black hole"]
+    },
+    "virus": {
+        "beats": ["human spirit", "bacteria", "disease"],
+        "beaten_by": ["vaccine", "cure", "light", "flame"]
+    },
+    "sound": {
+        "beats": ["shadow", "silence", "feather", "leaf"],
+        "beaten_by": ["echo", "vacuum", "black hole"]
+    },
+    "time": {
+        "beats": ["rock", "stone", "mountain", "human constructs"],
+        "beaten_by": ["black hole", "eternity", "entropy", "supermassive black hole"]
+    },
+    "fate": {
+        "beats": ["human spirit", "choice", "free will", "time"],
+        "beaten_by": ["karma", "enlightenment", "time", "entropy"]
+    },
+
+    "earthquake": {
+        "beats": ["rock", "stone", "building", "structure"],
+        "beaten_by": ["water", "tsunami", "tectonic shift"]
+    },
+    "storm": {
+        "beats": ["feather", "leaf", "twig", "paper"],
+        "beaten_by": ["peace", "gravity", "earth", "moon"]
+    },
+    "vaccine": {
+        "beats": ["virus", "disease", "bacteria", "plague"],
+        "beaten_by": ["time", "entropy", "fate"]
+    },
+    "logic": {
+        "beats": ["fate", "karma", "superstition"],
+        "beaten_by": ["paper", "human spirit", "enlightenment", "entropy"]
+    },
+    "gravity": {
+        "beats": ["feather", "water", "storm", "rain"],
+        "beaten_by": ["black hole", "supermassive black hole", "antimatter"]
+    },
+    "robots": {
+        "beats": ["human labor", "time", "efficiency"],
+        "beaten_by": ["water", "emp", "logic", "virus"]
+    },
+    "stone": {
+        "beats": ["feather", "leaf", "twig", "paper"],
+        "beaten_by": ["water", "earthquake", "tectonic shift"]
+    },
+    "echo": {
+        "beats": ["sound", "silence"],
+        "beaten_by": ["vacuum", "black hole", "supermassive black hole"]
+    },
+    "thunder": {
+        "beats": ["peace", "silence", "calm", "feather"],
+        "beaten_by": ["lightning rod", "ear plugs", "storm"]
+    },
+    "karma": {
+        "beats": ["bad deeds", "human spirit", "choice"],
+        "beaten_by": ["enlightenment", "fate", "rebirth", "entropy"]
+    },
+    "wind": {
+        "beats": ["feather", "leaf", "paper", "sound"],
+        "beaten_by": ["mountain", "gravity", "earth", "moon"]
+    },
+    "ice": {
+        "beats": ["water", "flame", "fire"],
+        "beaten_by": ["heat", "flame", "sun", "star", "supernova"]
+    },
+    "sandstorm": {
+        "beats": ["feather", "leaf", "paper", "water"],
+        "beaten_by": ["stone", "rock", "mountain", "water"]
+    },
+    "laser": {
+        "beats": ["shield", "rope", "diamond", "metal"],
+        "beaten_by": ["mirror", "vacuum", "light"]
+    },
+    "magma": {
+        "beats": ["rock", "ice", "stone", "earth"],
+        "beaten_by": ["water", "tsunami", "ocean", "ice"]
+    },
+    "peace": {
+        "beats": ["war", "violence", "chaos", "storm"],
+        "beaten_by": ["human nature", "fate", "karma"]
+    },
+    "explosion": {
+        "beats": ["rock", "stone", "shield", "building"],
+        "beaten_by": ["water", "vacuum", "reinforced structure"]
+    },
+    "war": {
+        "beats": ["peace", "humanity", "civilization"],
+        "beaten_by": ["peace", "enlightenment", "human spirit"]
+    },
+    "enlightenment": {
+        "beats": ["karma", "fate", "war", "ignorance"],
+        "beaten_by": ["entropy", "time", "rebirth"]
+    },
+
+    "nuclear bomb": {
+        "beats": ["city", "building", "human", "shield", "army"],
+        "beaten_by": ["water", "nuclear shelter", "space", "earth's core"]
+    },
+    "volcano": {
+        "beats": ["city", "forest", "earth", "human"],
+        "beaten_by": ["water", "tsunami", "ocean", "tectonic shift"]
+    },
+    "whale": {
+        "beats": ["water", "fish", "small creatures"],
+        "beaten_by": ["tsunami", "land", "gravity", "plague"]
+    },
+    "earth": {
+        "beats": ["human", "whale", "tree", "water"],
+        "beaten_by": ["earth's core", "tectonic shift", "apocalyptic meteor"]
+    },
+    "moon": {
+        "beats": ["tide", "night", "darkness"],
+        "beaten_by": ["earth", "star", "sun", "gravity"]
+    },
+    "star": {
+        "beats": ["darkness", "cold", "moon", "planet"],
+        "beaten_by": ["supernova", "black hole", "supermassive black hole"]
+    },
+    "tsunami": {
+        "beats": ["city", "human", "earth", "whale"],
+        "beaten_by": ["gravity", "moon", "earth's core"]
+    },
+    "supernova": {
+        "beats": ["star", "planet", "moon", "light"],
+        "beaten_by": ["black hole", "supermassive black hole", "gamma-ray burst"]
+    },
+    "antimatter": {
+        "beats": ["matter", "gravity", "reality"],
+        "beaten_by": ["matter", "reality", "void", "entropy"]
+    },
+    "plague": {
+        "beats": ["human", "animal", "civilization"],
+        "beaten_by": ["cure", "vaccine", "enlightenment", "rebirth"]
+    },
+    "rebirth": {
+        "beats": ["death", "plague", "ending", "karma"],
+        "beaten_by": ["entropy", "gamma-ray burst", "supermassive black hole"]
+    },
+    "tectonic shift": {
+        "beats": ["earth", "mountain", "city", "earthquake"],
+        "beaten_by": ["earth's core", "gamma-ray burst", "entropy"]
+    },
+    "gamma-ray burst": {
+        "beats": ["earth", "star", "planet", "civilization"],
+        "beaten_by": ["supermassive black hole", "neutron star", "entropy"]
+    },
+    "human spirit": {
+        "beats": ["war", "disease", "plague", "challenge"],
+        "beaten_by": ["entropy", "time", "gamma-ray burst", "apocalyptic meteor"]
+    },
+    "apocalyptic meteor": {
+        "beats": ["earth", "civilization", "dinosaur", "peace"],
+        "beaten_by": ["supermassive black hole", "neutron star", "entropy"]
+    },
+    "earth's core": {
+        "beats": ["earth", "tectonic shift", "earthquake", "volcano"],
+        "beaten_by": ["supermassive black hole", "neutron star", "entropy"]
+    },
+    "neutron star": {
+        "beats": ["planet", "star", "gamma-ray burst", "light"],
+        "beaten_by": ["supermassive black hole", "entropy"]
+    },
+    "supermassive black hole": {
+        "beats": ["star", "planet", "neutron star", "light", "gravity"],
+        "beaten_by": ["entropy"]
+    },
+    "entropy": {
+        "beats": ["everything", "time", "universe", "supermassive black hole"],
+        "beaten_by": []  
+    }
+}
